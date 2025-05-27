@@ -1,3 +1,86 @@
-p{
-    color: aquamarine;
+/* Estilos generales */
+body {
+    background-color: #73bb8b;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #31c28f;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 300%;
+    color: black;
+}
+
+/* Frase debajo del título */
+h2 {
+    font-size: 200%;
+    text-align: center;
+    color: rgb(13, 14, 14);
+}
+
+/* Imagen de perfil */
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+/* Tabla de redes sociales */
+table {
+    margin: auto;
+    background-color: #0e8449;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 5px solid #fff;
+}
+
+td img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Sección de enlaces */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #0e8449;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #0c6c3b;
+}
+
+/* Footer */
+footer {
+    background-color: #046c3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
